@@ -7,9 +7,6 @@
 .row{
     margin: 20px;
 }
-.col{
-    
-}
 /*carré*/
 .carre{
     width: 50px;
@@ -29,4 +26,7 @@
     height: 50px;
     transform: rotate(45deg);
     border: 0.5px solid #426A5A;
+}
+.active{
+    background-color: #426A5A;
 }

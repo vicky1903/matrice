@@ -30,3 +30,11 @@
 .active{
     background-color: #426A5A;
 }
+#boutons{
+    width: 17%;
+    margin: auto;
+    margin-top: 20px;
+}
+button{
+    margin: 10px;
+}

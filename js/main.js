@@ -2,10 +2,12 @@
 $(document).ready(function(){
     //on met tous le code jquery a l'interieur//
     //en un click on colore ou non chaque rond//
-    $('.rond').click(function(){
-        if ($(this).hasClass('active')){
+   $('.row div').click(function(){
+       //façon compliquer de faire (comme lucy)
+        /* if ($(this).hasClass('active')){
         $(this).removeClass('active');}
-        else {$(this).addClass('active');} 
+        else {$(this).addClass('active');}*/
+        $(this).toggleClass('active')
     });
 
     //button rempli
@@ -17,6 +19,9 @@ $(document).ready(function(){
         $('.row div').removeClass('active')
     });
 
+    $('.carre').click(function(){
+        $('.')
+    })
 
     
 })
